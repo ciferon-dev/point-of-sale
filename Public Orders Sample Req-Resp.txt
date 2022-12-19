@@ -1,0 +1,36 @@
+
+	  
+POST:  https://api.ciferon.com/api/LoginApi/SaleDetails
+
+Header: [{"key":"Authorization","value":"Bearer 97802af4-b065-4b36-be97-06ea1dd0a2fd"}]
+
+Sample Body:
+{
+    "StartDate" : "2022-12-19",
+    "EndDate" : "2022-12-19"
+}
+
+Sample Response
+
+{
+    "IsSuccess": true,
+    "Result": {
+        "orderList": [
+            {
+                "OrderID": 7258987,
+                "TransactionNumber": "C-35392",
+                "TransactionTime": "2022-12-19T11:01:07.463",
+                "DiscountAmount": 0.0,
+                "TaxAmount": 0.0,
+                "BillAmount": 228.7500,
+                "PaymentMode": [
+                    "Amazon"
+                ],
+                "IsComplimentary": false
+            }
+        ]
+    }
+}
+
+
+	  
